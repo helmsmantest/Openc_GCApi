@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Openc\GCApi\Api\GcapiapiStockInterface" type="Openc\GCApi\Model\GcapiapiStock"/>
+    <preference for="Openc\GCApi\Api\GcapiapiResponseStockInterface" type="Openc\GCApi\Model\GcapiapiResponseStock" />
+    <preference for="Openc\GCApi\Api\GcapiapiProductInterface" type="Openc\GCApi\Model\GcapiapiProduct" />
+    <preference for="Openc\GCApi\Api\GcapiapiResponseProductInterface" type="Openc\GCApi\Model\GcapiapiResponseProduct" />
+    <preference for="Openc\GCApi\Api\GcapiapiCartProductInterface" type="Openc\GCApi\Model\GcapiapiCartProduct" />
+    <preference for="Openc\GCApi\Api\GcapiapiResponseCartProductInterface" type="Openc\GCApi\Model\GcapiapiResponseCartProduct" />
+</config>
